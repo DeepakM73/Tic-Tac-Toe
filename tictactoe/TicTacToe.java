@@ -17,7 +17,7 @@ public class TicTacToe {
         }
     }
 
-    public static void chooseXorO(Scanner scanner) {
+    public static void chooseXorO() {
         System.out.println("Which one you want ?\n" +"'X' or 'O'");
         Scanner sc = new Scanner(System.in);
         char playerChoice = sc.next().charAt(0);
